@@ -1,0 +1,512 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*Header Section*/
+
+header{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background-color: #EBEDEF;
+}
+.logo{
+	width: 35%;
+	float: left;
+}
+
+.menu{
+	width: 65%;
+	float: left;
+}
+ .menu nav ul{
+	list-style: none;
+}
+ .menu nav ul li{
+	display: inline-block;
+    margin: 15px 20px;    
+}		
+	
+.menu nav ul li a{
+	color: #4caf50;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.4s ease-in- out;    
+}
+.menu nav ul li a:hover{
+	color: #28AFEA;
+}
+
+/*banner section*/
+
+.banner-section{
+	width: 100%;
+	float: left;
+	background: url(../img/bg2.jpg) no-repeat;
+	background-size: cover;
+}
+.banner-title{
+	width: 80%;
+    float: left;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 55px;
+}
+.banner-title h2{
+	color: #19A15F;
+    padding: 20px 0px;
+    font-size: 38px;
+}
+.banner-title span{
+	width: 65%;
+    border-bottom: 2px solid #19A15F;
+    display: block;
+    margin: 0 auto;
+}
+.banner-title p{
+	font-size: 18px;
+    margin: 16px 0px;
+    color: #19A15F;
+}
+.banner-menu-one{
+	width: 33.33%;
+    float: left;
+    padding: 55px 0px;
+}
+.banner-icon{
+	text-align: center;
+    font-size: 65px;
+    color: #1A6ED8;
+    display: block;
+     padding-top: 60px;
+}
+.banner-menu-one h3{
+	margin: 5px 0px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.banner-menu-one p{
+	font-size: 21px;
+    text-align: center;
+    color: #1acd30;
+}
+.banner-menu-two{
+	width: 33.33%;
+    float: left;
+    padding: 55px 0px;
+}
+.banner-icon-two{
+	text-align: center;
+    font-size: 65px;
+    color: #1A6ED8;
+    display: block;
+     padding-top: 60px;
+}
+.banner-menu-two h3{
+	margin: 5px 0px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.banner-menu-two p{
+	font-size: 21px;
+    text-align: center;
+    color: #1acd30;
+}
+.banner-menu-three{
+	width: 33.33%;
+    float: left;
+    padding: 55px 0px;
+}
+.banner-icon-three{
+	text-align: center;
+    font-size: 65px;
+    color: #1A6ED8;
+    display: block;
+    padding-top: 60px;
+}
+.banner-menu-three h3{
+	margin: 5px 0px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+.banner-menu-three p{
+	font-size: 21px;
+    text-align: center;
+    color: #1acd30;
+}
+/*logo-banner*/
+
+.logo-banner{
+	width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: #1616;
+}
+.logo-title{
+	display: block;
+    text-align: center;
+    margin: 40px 0px;
+}
+.logo-title h3{
+	color: #161616;
+    margin: 25px 0px;
+    font-size: 34px;
+}
+.logo-title p{
+	padding: 25px 0px;
+    font-size: 18px;
+}
+.logo-btn{
+	display: block;
+    margin: 0 auto;
+    width: 14%;
+    height: 44px;
+    padding: 5px;
+    background: #A0C2A0;
+    border: 3px solid #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.banner2-title{
+	display: block;
+    text-align: center;
+    margin: 25px 0px;
+}
+.banner2-title h2{
+	font-size: 34px;
+    text-transform: uppercase;
+}
+.banner2-title span{
+	border-bottom: 3px solid #fff;
+    display: block;
+    width: 45%;
+    margin: 15px auto;
+}
+.logo-menu-one{
+	width: 25%;
+    float: left;
+    padding: 55px 0px;
+}
+.logo-menu-one img{
+	width: 215px;
+    display: block;
+    margin: 15px auto;
+    padding-top: 20%;
+}
+.logo-menu-one h2{
+	text-align: center;
+    padding: 10px 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+}.logo-menu-one p{
+	text-align: center;
+    font-size: 17px;
+}
+.logo-menu-two{
+	width: 25%;
+    float: left;
+    padding: 55px 0px;
+}
+.logo-menu-two img{
+	width: 230px;
+    display: block;
+    margin: 38px auto;
+    padding-top: 20%;
+}
+.logo-menu-two h2{
+	text-align: center;
+    padding: 10px 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+}.logo-menu-two p{
+	text-align: center;
+    font-size: 17px;
+}
+.logo-menu-three{
+	width: 25%;
+    float: left;
+    padding: 55px 0px;
+}
+.logo-menu-three img{
+	width: 280px;
+    display: block;
+    margin: 30px auto;
+    padding-top: 20%;
+}
+.logo-menu-three h2{
+	text-align: center;
+    padding: 10px 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+}.logo-menu-three p{
+	text-align: center;
+    font-size: 17px;
+}
+.logo-menu-four{
+	width: 25%;
+    float: left;
+    padding: 55px 0px;
+}
+.logo-menu-four img{
+	width: 200px;
+    display: block;
+    margin: 39px auto;
+    padding-top: 20%;
+}
+.logo-menu-four h2{
+	text-align: center;
+    padding: 10px 0px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.logo-menu-four p{
+	text-align: center;
+    font-size: 17px;
+}
+.logo-title-one{
+	width: 100%;
+    float: left;
+    padding: 25px 0px;
+    display: block;
+    text-align: center;
+}
+.logo-title-one h1{
+	margin: 28px 0px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.logo-title-one span{
+	border-bottom: 3px solid #fff;
+    display: block;
+    width: 68%;
+    margin: 10px auto;
+}
+.title-btn{
+	display: block;
+    margin: 35px auto;
+    width: 19%;
+    height: 45px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    font-size: 22px;
+    background: #16166666;
+    color: #fff;
+    transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+    -o-transition: 0.7s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    
+}
+.title-btn:hover{
+	background: deepskyblue;
+		
+}
+.fa.fa-chevron-down{
+	display: block;
+    margin: 0 auto;
+    padding-top: 85px;
+    font-size: 30px;
+    color: #fff;
+}
+
+/* img banner */
+
+.img-banner{
+	width: 100%;
+    float: left;
+    padding: 44px 0px;
+    background: #3B5999;
+}
+ .img-title{
+	display: block;
+    text-align: center;
+    margin: 15px 0px;
+}
+.img-title h4{
+	font-size: 33px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 0px;
+}
+.img-title h5{
+	font-size: 23px;
+    margin: 10px 0px;
+    color: #fff;
+}
+.img-title span{
+	border-bottom: 3px solid #fff;
+    display: block;
+    width: 70%;
+    margin: 16px auto;
+}
+.img-title p{
+	font-size: 20px;
+    color: #fff;
+}
+ .title-menu{
+	    width: 100%;
+    float: left;
+    padding: 40px 0px;
+    display: block;
+    text-align: center;
+}
+.title-menu h1{
+	font-size: 32px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 80px;
+}
+.title-menu span{
+	border-bottom: 3px solid #fff;
+    display: block;
+    width: 17%;
+    margin: 15px auto;
+}
+.fa.fa-chevron-down{
+	color: #fff;
+    padding-top: 15%;
+}
+.title-banner-one{
+	width: 31.33%;
+    float: left;
+   margin: 11px;
+    background-color: #fff;
+    text-align: center;
+ 	padding-top: 8%;
+    border-radius: 28px;
+}
+.title-banner-one h2{
+	font-size: 35px;
+    margin: 10px 0px;
+    color: #3B5999;
+}
+.title-banner-one h6{
+	font-size: 23px;
+    padding: 8px 0px;
+    color: #3B5999;
+}
+.title-banner-one p{
+	font-size: 20px;
+    color: #161616;
+}
+.title-banner-one h3{
+	margin: 45px 0px;
+    color: #17A05D;
+    font-size: 28px;	
+}
+
+.title-banner-two{
+	width: 31.33%;
+    float: left;
+   margin: 11px;
+    background-color: #fff;
+    text-align: center;
+  	padding-top: 8%;
+    border-radius: 28px;
+}
+.title-banner-two h2{
+	font-size: 35px;
+    margin: 10px 0px;
+    color: #3B5999;
+}
+.title-banner-two h6{
+	font-size: 23px;
+    padding: 8px 0px;
+    color: #3B5999;
+}
+.title-banner-two p{
+	font-size: 20px;
+    color: #161616;
+}
+.title-banner-two h3{
+	margin: 45px 0px;
+    color: #17A05D;
+    font-size: 28px;	
+}
+
+.title-banner-three{
+	width: 31.33%;
+     float: left;
+     margin: 11px;
+    background-color: #fff;
+    text-align: center;
+   padding-top: 8%;
+    border-radius: 28px;
+}
+.title-banner-three h2{
+	font-size: 35px;
+    margin: 10px 0px;
+    color: #3B5999;
+}
+.title-banner-three h6{
+	font-size: 23px;
+    padding: 8px 0px;
+    color: #3B5999;
+}
+.title-banner-three p{
+	font-size: 20px;
+    color: #161616;
+}
+.title-banner-three h3{
+	margin: 45px 0px;
+    color: #17A05D;	
+    font-size: 28px;
+}
+
+/* fotter section */
+
+footer{
+	width: 100%;
+    float: left;
+    padding: 15px 0px;
+}
+.logo{
+	width: 40%;
+    float: left;
+}
+.icons{
+	width: 60%;
+    float: left;
+}
+ .icons ul{
+	list-style: none;
+}
+ .icons ul li{
+	display: inline-block;
+    margin: 40px 0px;
+}
+ .icons ul li a{
+	padding: 12px 25px;
+}
+.fa.fa-facebook{
+	margin-left: 250px;
+    font-size: 45px;
+    color: #3B5999;
+}
+
+.fa.fa-university{
+	font-size: 38px;
+    color: #3B5999;
+}
+
+.fa.fa-instagram{
+	font-size: 40px;
+    color: #DD5145;
+}
+.fa.fa-google{
+	font-size: 38px;
+    color: #17A05D;
+}
